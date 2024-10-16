@@ -2,6 +2,8 @@ This repository contains the files neccesarry to use the open source tool empymo
 
 In order to apply these files, empymod must be installed. Please see https://empymod.emsig.xyz/en/stable/ for installation manual and guide on useage. 
 
+The model applies many elements from the examples in the empymod-website. 
+
 The files are: 
 
 dielectric_data.py - which is a python library containg data with estimated electrical parameters for different ices, based on published results available in the open literature.
