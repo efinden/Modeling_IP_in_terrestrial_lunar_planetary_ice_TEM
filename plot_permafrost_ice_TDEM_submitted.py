@@ -67,9 +67,6 @@ filename_fd = 'permafrost_05m_ice_layer_at_table_0m_fd.pdf'
 
 ikx = 0
 y = 0
-#for subsurf in [Fairbanks_silt_44_ice_minus_3, Fairbanks_silt_72_ice_minus_3, Fairbanks_silt_100_ice_minus_3]:
-
-#for subsurf in [permafrost_model_2008, Fairbanks_silt_72_ice_minus_3, Sand_ice_46_ice_181K, Sand_ice_46_ice_100K]:
 
 MUT = []
 
