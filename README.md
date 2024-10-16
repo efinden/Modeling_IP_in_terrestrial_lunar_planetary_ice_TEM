@@ -14,6 +14,8 @@ Cole_model.py - A custom Cole-Cole function file
 
 dielectric_plots.py - creates a plot of the permittivity and conducitivity (Figure 2).
 
+The *txt -files are digital filters needed for the transforms of empymod. 
+
 The rest of the files creates plots of TEM-responses for lunar, martian and terretrial subsurface ice, and reproduce Figure 4-9, dependent on depth settings in the files. 
 
 plot_lunar_ice_TDEM.py
