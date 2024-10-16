@@ -28,14 +28,6 @@ def data():
 			self.c_2 = c_2
 
 				      # name, T, perm0, perm8, f_r, cond_dc, c, perm0_2, perm8_2, f_r_2, c_2
-	ice3 = Dielectric('Polycrystalline ice', -3, 1, 1, 1, 0.0010e-01, 1, 95.9, 3.190, 6.300e03, 1) # Bittelli 2004, Petrenko-bok 1999 og HAsted-bok 1973
-	ice10 = Dielectric('Polycrystalline ice', -10, 1, 1, 1, 0.00085e-01, 1, 98.3, 3.177, 2.800e03, 1) # Bittelli 2004, Petrenko-bok 1999 og HAsted-bok 1973
-	ice30 = Dielectric('Polycrystalline ice', -30, 1, 1, 1, 0.00021e-01, 1, 105.0, 3.141, 0.581e03, 1) # -"- ,
-	RedBluffClay1 = Dielectric('Red Bluff Clay', -1, 1, 1, 1, 1.3e-01, 1, 103921, 21.74, 7.932e03, (1 - 0.39)) #  
-	RedBluffClay3 = Dielectric('Red Bluff Clay', -3, 1, 1, 1, 1.2e-01, 1, 36977, 14.02, 6.621e03, (1 - 0.41)) #  
-	LSoilSand3 = Dielectric('L-Soil Sand', -3, 1, 1, 1, 0.09e-01, 1, 153.2, 3.07, 5.328e03, (1-0.4)) # Bittelli 2004
-	WallaWallaSiltLoam3 = Dielectric('Walla Walla Silt Loam', -3, 1, 1, 1, 0.005e-01, 1, 3640.2, 8.5, 5.987e03, (1-0.25)) # Bittelli 2004
-	TNT = Dielectric('TNT', 20, 1, 1, 1, 1/(8.97e10*1e-02), 1, 6.481, 2.849, 300, .6) # Walbrecht, T is unknown, we assumed ambient 20 deg C.
 	Regolith = Dielectric('Regolith', -173, 3, 3, 1, 1e-12, 1, 3, 3, 1, 1) #. Lunar sourcebook. 
 	Very_low_non_dispersive = Dielectric('Very low cond.', -173, 5, 5, 1, 1e-40, 1, 5, 5, 1, 1) 
 	Regolith_1e10 = Dielectric('Resistive regolith (1e10 $\Omega$m)', -173, 3, 3, 1, 1e-10, 1, 3, 3, 1, 1) #. Lunar sourcebook. 
