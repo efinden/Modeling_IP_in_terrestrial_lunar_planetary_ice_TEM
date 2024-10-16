@@ -47,7 +47,6 @@ def data():
 					# name,   T,   perm0, perm8, f_r, cond_dc, c, perm0_2, perm8_2, f_r_2, c_2
 	Ti_i_tiende = Dielectric('1e10 $\Omega$m', -3, 3,     3,     1,   1e-10,   1, 3,       3,       1,     1)
 
-	WallaWallaSiltLoam_dc = Dielectric('Walla Walla Silt Loam - non-dispersive', -3, 1, 1, 1, 0.005e-01, 1, 8, 8, 1, 1) #	
 	air = Dielectric('Air', 273, 1, 1, 1, 1/2e14, 1, 1, 1, 1, 1) # Stillmann and Grimm 2008. Perm0, perm8 from Nurge 2012. 
 
 						# name,   T, perm0, perm8, f_r, cond_dc,  c,  perm0_2, perm8_2,     f_r_2,            c_2
