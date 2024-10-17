@@ -1,4 +1,4 @@
-This repository contains the files neccesarry to use the open source tool empymod to reproduce the modeling results of the paper "Induced polarization in the transient electromagnetic method may enable detection of subsurface ice on Earth, Mars, and the Moon to be submitted for Planetary and Space Sciences".
+This repository contains the files neccesarry to use the open source tool empymod to reproduce the modeling results of the paper "Induced polarization in the transient electromagnetic method for detection of subsurface ice on Earth, Mars, and the Moon to be submitted for Planetary and Space Sciences".
 
 In order to apply these files, empymod must be installed. Please see https://empymod.emsig.xyz/en/stable/ for installation manual and guide on useage. 
 
