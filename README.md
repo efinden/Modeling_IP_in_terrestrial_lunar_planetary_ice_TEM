@@ -8,9 +8,9 @@ The files are:
 
 dielectric_data.py - which is a python library containg data with estimated electrical parameters for different ices, based on published results available in the open literature.
 
-halfspace_and_3layers.py - is a function that do the computation of the model. 
+halfspace_and_3layers.py - is a function including the computation of the model. 
 
-Cole_model.py - A custom Cole-Cole function file
+Cole_model.py - A custom Cole-Cole function file, based on the examples in the empymod wesite. 
 
 dielectric_plots.py - creates a plot of the permittivity and conducitivity (Figure 2).
 
@@ -18,11 +18,11 @@ The *txt -files are digital filters needed for the transforms of empymod.
 
 The rest of the files creates plots of TEM-responses for lunar, martian and terretrial subsurface ice, and reproduce Figure 4-9, dependent on depth settings in the files. 
 
-plot_lunar_ice_TDEM.py
+plot_lunar_ice_TDEM.py (Fig. 9)
 
-plot_martian_ice_TDEM.py
+plot_martian_ice_TDEM.py (Fig. 5-8)
 
-plot_permafrost_ice_TDEM_loops.py
+plot_permafrost_ice_TDEM_loops.py (Fig. 4)
 
 Please see empymod-documentation for application manual. Specific to this code is the library where you can select the material in each layer from dielectric_data.py, and the extended Cole-Cole models. 
 
